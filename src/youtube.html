@@ -6,10 +6,17 @@
   <link href="/dist/output.css" rel="stylesheet">
     <title>Youtube clone</title>
 </head>
-<body>
+<body class="bg-black">
     <header class="h-12 items-center bg-black justify-between text-white flex" >
-        <div class="bg-purple-800 ">
-            logo
+
+        <div class="bg-black flex h-12 items-center justify-between">
+            <svg class="h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+             
+                <a href="https://www.freeiconspng.com/img/46037"><img src="https://www.freeiconspng.com/uploads/white-youtube-logo-png-28.png" width="100px" alt="White Youtube Logo PNG" /></a>
+
+              
         </div >
         <div class="bg-black flex ">
             <input class="pl-4 h-9 rounded-l-full bg-black border border-gray-600" placeholder="Buscar"type="search">
@@ -21,9 +28,29 @@
                   
             </span>
         </div>
-        <div class="bg-blue-400">
-            login
+        <div class="">
+            <button class="border text-blue-500 focus:right-4 hover:bg-[#84AFC2] bg-black w-7 focus:ring-4 focus:outline-none focus:ring-black font-medium rounded-full w-32 inline-flex items-center mx-3 py-2 my-2 justify-center ">
+                <svg class="w-5 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  Acceder
+            </button>
         </div>
+        
     </header>
-
+    <div for="container" class="flex gap-3" >
+        <aside class="text-white">
+            <label for="">Principal</label>
+            <label for="">Shorts</label>
+            <label for=""></label>
+            <label for=""></label>
+            <label for=""></label>
+            <label for=""></label>
+            <label for=""></label>
+            <label for=""></label>
+        </aside>
+        <div for="content" class="text-white">
+            videos
+        </div>
+    </div>
 </body>
